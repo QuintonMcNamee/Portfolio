@@ -2743,6 +2743,9 @@ body.is-menu-visible #menu .inner {
   transform: translateY(0);
   opacity: 1;
 }
+/* body.is-menu-visible #header {
+  display: none;
+} */
 
 /* Banner */
 #banner {
@@ -2949,7 +2952,8 @@ body.is-preload #banner p {
 
 .wrapper {
   background-color: #2e3141;
-  margin: 2.5em 0;
+  /* margin: 2.5em 0; */
+  padding: 2.5em 0;
   position: relative;
 }
 .wrapper:before, .wrapper:after {
