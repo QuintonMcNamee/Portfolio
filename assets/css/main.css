@@ -2949,7 +2949,7 @@ body.is-preload #banner p {
 
 .wrapper {
   background-color: #2e3141;
-  margin: 6.5em 0;
+  margin: 2.5em 0;
   position: relative;
 }
 .wrapper:before, .wrapper:after {
@@ -3277,6 +3277,7 @@ body.is-preload #banner p {
   margin: 4em 0 2em 0;
   padding: 2em 0 0 0;
   width: 100%;
+  text-align: center;
 }
 #footer .inner .copyright li {
   border-left: solid 2px rgba(255, 255, 255, 0.125);
