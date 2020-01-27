@@ -23,7 +23,6 @@ section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  text-decoration: none;
 }
 
 article, aside, details, figcaption, figure,
@@ -151,7 +150,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  /* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
   color: #ffffff;
   text-decoration: none;
 }
@@ -2129,7 +2128,7 @@ ul.icons li .icon:before {
 /* Contact */
 ul.contact {
   list-style: none;
-  padding-top: 50px;
+  padding: 0;
 }
 ul.contact li {
   text-decoration: none;
@@ -2164,14 +2163,11 @@ ul.contact li:before {
 }
 ul.contact li:first-child {
   margin-top: 0;
-}	
+}
 @media screen and (max-width: 736px) {
-	ul.contact {
-		padding-top: 0;
-	  }
-  	ul.contact li {
-		margin: 1.5em 0 0 0;
-  	}
+  ul.contact li {
+    margin: 1.5em 0 0 0;
+  }
 }
 
 /* Pagination */
@@ -2534,7 +2530,7 @@ button,
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
   border-radius: 5px;
-  /* box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125); */
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
   padding: 0 1.35em;
 }
 #header nav a[href="#menu"]:before {
@@ -2553,9 +2549,9 @@ button,
   content: "";
   line-height: inherit;
 }
-/* #header nav a[href="#menu"]:hover {
+#header nav a[href="#menu"]:hover {
   background-color: rgba(255, 255, 255, 0.025);
-} */
+}
 #header nav a[href="#menu"]:active {
   background-color: rgba(255, 255, 255, 0.075);
 }
@@ -3105,7 +3101,7 @@ body.is-preload #banner p {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  text-align: left;
+  text-align: right;
 }
 .wrapper.spotlight:nth-child(2n-1) .image {
   margin: 0 0 2em 3em;
