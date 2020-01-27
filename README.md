@@ -1,2 +1,19 @@
-# Portfolio
-My personal website. The purpose of the website is to showcase my skills and some of my previous work. Template is made by HTML5 UP.
+# Description
+My personal portfolio website. The purpose of the website is to showcase my skills and some of my previous work.
+
+# Credits
+Template
+  Solid State by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+Demo Images:
+	Unsplash (unsplash.com)
+
+Icons:
+  Font Awesome (fontawesome.io)
+
+Other:
+  jQuery (jquery.com)
+  Scrollex (github.com/ajlkn/jquery.scrollex)
+  Responsive Tools (github.com/ajlkn/responsive-tools)
