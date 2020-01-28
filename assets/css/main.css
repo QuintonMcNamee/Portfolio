@@ -237,12 +237,16 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   font-weight: 200;
 }
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-  padding-bottom: 1em;
+  padding-bottom: .5em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
 
+.content p {
+  font-size: 1.5em;
+}
+
 h2 {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 h3 {
@@ -1929,6 +1933,7 @@ input[type=radio] + label:before {
 .image img {
   border-radius: 5px;
   display: block;
+  height: 315px;
 }
 .image.left, .image.right {
   max-width: 40%;
@@ -2456,8 +2461,8 @@ button,
 @media screen and (max-width: 736px) {
   .features article {
     padding: 1.5em 1.5em 0.1em 1.5em;
-    margin: 0.875em 1.75em 0.875em 0;
-    width: calc(50% - 0.875em - 1px);
+    margin: 2.5em 0 0 0;
+    width: 100%;
   }
   .features article .image {
     margin-bottom: 1.5em;
@@ -3176,7 +3181,7 @@ body.is-preload #banner p {
 }
 @media screen and (max-width: 980px) {
   .wrapper {
-    margin: 4.75em 0;
+    /* margin: 4.75em 0; */
   }
   .wrapper:before, .wrapper:after {
     height: 4.75em;
@@ -3202,7 +3207,8 @@ body.is-preload #banner p {
 }
 @media screen and (max-width: 736px) {
   .wrapper {
-    margin: 2.5em 0;
+    /* margin: 2.5em 0; */
+    padding: 2.5em 0;
   }
   .wrapper:before, .wrapper:after {
     height: 2.5em;
@@ -3313,8 +3319,8 @@ body.is-preload #banner p {
 }
 @media screen and (max-width: 980px) {
   #footer {
-    margin-top: -4.75em;
-    padding-top: 4.75em;
+    margin-top: 0;
+    padding-top: 2.75em;
   }
   #footer .inner {
     padding: 3em 3em 1em 3em;
@@ -3335,7 +3341,7 @@ body.is-preload #banner p {
 }
 @media screen and (max-width: 736px) {
   #footer {
-    margin-top: -2.5em;
+    /* margin-top: -2.5em; */
     padding-top: 2.5em;
   }
   #footer .inner {
